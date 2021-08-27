@@ -1,8 +1,8 @@
 ---
 layout: distill
 title: co-moving pairs
-description: a project with a background image
-img: /assets/img/12.jpg
+description: stars lost from clusters
+img: /assets/img/eso1110a.jpg
 importance: 1
 category: work
 bibliography: projects.bib
@@ -12,6 +12,8 @@ authors:
     affiliations:
       name: UNSW Sydney
 ---
+
+<!-- Credit: ESO/L. Calçada https://www.eso.org/public/images/eso1110a/-->
 
 All observable stars in our Galaxy were born in a cluster. But the vast majority of stars are not found to be in clusters: most birth clusters are not gravitationally bound<d-cite key="2020MNRAS.494..624K"></d-cite>; and if they do survive past the initial star formation event, they can be later ripped apart by the tidal forces of the Milky Way<d-cite key="2020ARA&A..58..205H"></d-cite>. My research investigates the Milky Way using stars from both these types of progenitors. This work has often made use of the paradigm of **chemical tagging** --- using elemental abundance patterns to identify stars from a common origin.
 
