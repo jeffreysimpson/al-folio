@@ -1,0 +1,48 @@
+- title: #General Information
+  type: map
+  contents:
+  - name: Full Name
+    value: Jeffrey Simpson
+  - name: Contact
+    value: jeffrey.simpson@unsw.edu.au
+
+- title: Education
+  type: table
+  contents:
+  - title: University of Canterbury – Ph.D. in Astronomy
+    year: 2014
+    location: New Zealand
+    description:
+    - 'Supervised by Professor Peter Cottrell.'
+    - 'Thesis: <a href="http://dx.doi.org/10.26021/6801">Spectral Matching for Elemental Abundances of Evolved Stars of Globular Clusters</a>'
+  - title: University of Canterbury – M.Sc. in Astronomy
+    year: 2009
+    location: New Zealand
+    description:
+    - 'Supervised by Professor Peter Cottrell.'
+    - 'Thesis: <a href="http://dx.doi.org/10.26021/7455">Stellar elemental abundance determination using a Fabry-Pérot Interferometer</a>'
+ 
+
+- title: Current Employment
+  type: table
+  contents:
+  - title: 'Post-Doctoral Research Fellow at the University of New South Wales'
+    year: since 2018
+    location: Australia
+    description:
+      - 'Sydney, Australia'
+
+- title: Previous Employment
+  type: table
+  contents:
+  - title: 'Research Fellow at the Australian Astronomical Observatory'
+    year: 2015 - 2018
+    location: Australia
+    description:
+      - 'Sydney, Australia'
+  - title: 'Research Fellow at the Macquarie University'
+    year: 2013 - 2015
+    location: Australia
+    description:
+      - 'Sydney, Australia'
+
