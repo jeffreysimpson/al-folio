@@ -76,13 +76,19 @@ def reorder(a):
     a = a.replace("Galah", "GALAH")
     if "," not in a:
         return a
-    return " ".join([a.split(", ")[1],a.split(", ")[0]])
+    return a #" ".join([a.split(", ")[1],a.split(", ")[0]])
 
 def get_arxiv_str(pub):
     arXiv_id = [i for i in pub['identifier'] if i.startswith("arXiv:")]
     if len(arXiv_id) == 0:
         return None
     return f"{arXiv_id[0]}"
+
+def fix_title(title):
+    things_to_fix = [[r"${S}^5$", "S<sup>5</sup>"]]
+    for thing_to_fix in things_to_fix:
+        title = title.replace(thing_to_fix[0], thing_to_fix[1])
+    return title
 
 def write_bibtex(bibtex_file, pub_df):
     with open(bibtex_file, 'w') as bibfile:
@@ -93,7 +99,7 @@ def write_bibtex(bibtex_file, pub_df):
             bibfile.write("{")
             bibfile.write(f"{publication.bibcode},\n")
             bibfile.write(f"  year={{{publication.year}}},\n")
-            bibfile.write(f"  title={{{publication.title[0]}}},\n")
+            bibfile.write(f"  title={{{fix_title(publication.title[0])}}},\n")
             bibfile.write(f"  author={{{' and '.join([reorder(a) for a in publication.author])}}},\n")
             bibfile.write(f"  journal={{{publication.bibstem[0]}}},\n")
             if publication.volume != ' ':
