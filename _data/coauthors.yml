@@ -1,18 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+# "Freeman":
+#   - firstname: ["Ken C.", "Ken", "K. C.", "Kenneth C."]
+#     url: https://en.wikipedia.org/wiki/Ken_Freeman_(astronomer)
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+# "Collaboration":
+#   - firstname: ["The GALAH", "GALAH"]
+#     url: https://www.galah-survey.org
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+#   - firstname: ["S5"]
+#     url: https://s5collab.github.io
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+# "Martell":
+#   - firstname: ["Sarah L.", "Sarah", "S. L.", "S."]
+#     url: https://orcid.org/0000-0002-3430-4163
+
+# "Buder":
+#   - firstname: ["Sven"]
+#     url: https://orcid.org/0000-0002-4031-8553
+
+# "Bland-Hawthorn":
+#   - firstname: ["Joss"]
+#     url: https://orcid.org/0000-0001-7516-4016
+
+# "Casey":
+#   - firstname: ["Andrew R."]
+#     url: http://astrowizici.st
+
+# "Casey":
+#   - firstname: ["Andrew R."]
+#     url: http://astrowizici.st

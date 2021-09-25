@@ -1,0 +1,133 @@
+[
+    {
+        "year": 2021,
+        "title": "The Southern Stellar Stream Spectroscopic Survey",
+        "conference": "ACAMAR Future of Traditional Survey Science",
+        "location": "Online",
+        "title_link": "https://doi.org/10.5281/zenodo.5520465",
+        "conf_link": "https://ftss2021.casconf.cn"
+    },
+    {
+        "year": 2021,
+        "title": "The Milky Way is not special: accreted stars also inhabit the Spite Plateau",
+        "conference": "2021 ASA Annual Scientific Meeting",
+        "location": "Melbourne, Australia",
+        "title_link": "https://doi.org/10.5281/zenodo.5339071",
+        "conf_link": "https://blogs.unimelb.edu.au/asa2021/"
+    },
+    {
+        "year": 2021,
+        "title": "The Milky Way is not special: accreted stars also inhabit the Spite Plateau",
+        "conference": "2021 GALAH Science Meeting",
+        "location": "Sydney, Australia",
+        "title_link": "https://doi.org/10.5281/zenodo.5340555",
+        "conf_link": "https://astro3d.org.au/2021-astro-3d-science-meeting/"
+    },
+    {
+        "year": 2019,
+        "title": "The Galah Survey: Chemically tagging the Fimbulthul stream to the globular cluster ω Centauri",
+        "conference": "GES 2019: The Legacy of the Gaia-ESO Survey",
+        "location": "Florence, Italy",
+        "conf_link": "https://sites.google.com/inaf.it/ges2019/home"
+    },
+    {
+        "year": 2019,
+        "title": "The Fimbulthul stellar stream was tidally stripped from the globular cluster ω Centauri",
+        "conference": "2019 ASA Annual Scientific Meeting",
+        "location": "Brisbane, Australia",
+        "title_link": "https://doi.org/10.5281/zenodo.5339005",
+        "conf_link": "https://research.smp.uq.edu.au/asa2019/ASA%202019.html"
+    },
+    {
+        "year": 2019,
+        "title": "Mapping stellar streams with LSST",
+        "conference": "LSST@Asia",
+        "location": "Sydney, Australia",
+        "conf_link": "https://lsst-asia.org",
+        "title_link": "https://doi.org/10.5281/zenodo.5407600"
+    },
+    {
+        "year": 2018,
+        "title": "A very nitrogen-rich star in the very low-mass, very metal-poor cluster ESO280-SC06",
+        "conference": "Survival of Dense Star Clusters in the Milky Way System",
+        "location": "Heidelberg, Germany"
+    },
+    {
+        "year": 2018,
+        "title": "Flying the nest to the Magellanic Clouds and Bridge with GALAH and TESS-HERMES",
+        "conference": "ASA Annual Scientific Meeting",
+        "location": "Melbourne, Australia"
+    },
+    {
+        "year": 2018,
+        "title": "Pushing the envelope on globular clusters",
+        "conference": "ASA Annual Scientific Meeting",
+        "location": "Melbourne, Australia"
+    },
+    {
+        "year": 2017,
+        "title": "The GALAH survey: Discovery of dissolving star clusters",
+        "conference": "Surveying the Cosmos, The Science From Massively Multiplexed Surveys",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2017,
+        "title": "What happened to the horizontal branch of ESO280-SC06?",
+        "conference": "Stars in Sydney",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2017,
+        "title": "The GALAH survey: Co-orbiting stars and chemical tagging",
+        "conference": "Celebration of CEMP \\& Gala of GALAH workshop",
+        "location": "Melbourne, Australia"
+    },
+    {
+        "year": 2017,
+        "title": "What happened to the horizontal branch of ESO280-SC06?",
+        "conference": "Australian Institute of Physics Summer Meeting 2017",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2016,
+        "title": "Probing the low-mass regime of globular clusters",
+        "conference": "Multiple populations in globular clusters: Where do we stand?",
+        "location": "Sexten, Italy"
+    },
+    {
+        "year": 2016,
+        "title": "Tips and tools to work with reduced data",
+        "conference": "ITSO/AAO Observational Techniques Workshop",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2015,
+        "title": "Searching extra-tidal stars of globular clusters with the GALAH survey",
+        "conference": "Multiwavelength Dissection of Galaxies",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2014,
+        "title": "C+N+O abundance of evolved stars of NGC1851",
+        "conference": "Bolton Symposium",
+        "location": "Sydney, Australia"
+    },
+    {
+        "year": 2013,
+        "title": "Spectral matching for elemental abundances of evolved stars of globular clusters",
+        "conference": "The Origin of Cosmic Elements",
+        "location": "Barcelona, Spain"
+    },
+    {
+        "year": 2012,
+        "title": "Carbon, nitrogen and barium abundances of giant branch stars of ω Centauri using spectral matching",
+        "conference": "Nuclei in the Cosmos",
+        "location": "Cairns, Australia"
+    },
+    {
+        "year": 2011,
+        "title": "Stellar parameters and barium abundances in ω Centauri GB by spectral matching",
+        "conference": "6th Stromlo Symposium on IFU Science in Australia",
+        "location": "Canberra, Australia"
+    }
+]
