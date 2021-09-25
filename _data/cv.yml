@@ -53,94 +53,94 @@
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The astrophysical origins of spectro-seismology&rdquo;</i>&emsp;(10 nights)</li>
-            <li><i>&ldquo;A Comprehensive Spectroscopic Survey of Southern Stellar Streams&rdquo;</i>&emsp;(7.5 nights)</li>
+            <li><i>The astrophysical origins of spectro-seismology</i>&emsp;(10 nights)</li>
+            <li><i>A Comprehensive Spectroscopic Survey of Southern Stellar Streams</i>&emsp;(7.5 nights)</li>
           </ul>'
       - '<b>ESO VLT</b>
           <ul>
-            <li><i>&ldquo;One Stream or Two: Chemical Abundances of the Indus and Jhelum Stellar Streams&rdquo;</i>&emsp;(30 hours)</li>
-            <li><i>&ldquo;A Spectroscopic Exploration of the Tidal Extensions of omega Centauri&rdquo;</i>&emsp;(11 hours)</li>
+            <li><i><a href="http://archive.eso.org/wdb/wdb/eso/approved_runs/query?tel=UT2&prog_id=108.22F5.001&period=108&remarks=%20">One Stream or Two: Chemical Abundances of the Indus and Jhelum Stellar Streams</a></i>&emsp;(30 hours)</li>
+            <li><i><a href="http://archive.eso.org/wdb/wdb/eso/approved_runs/query?tel=UT2&prog_id=108.22MM.001&period=108&remarks=%20">A Spectroscopic Exploration of the Tidal Extensions of omega Centauri</a></i>&emsp;(11 hours)</li>
           </ul>'
   - year: 2020B
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The GALAH Survey: Phase 2&rdquo;</i>&emsp;(155 nights over 4 semesters)</li>
-            <li><i>&ldquo;The astrophysical origins of spectro-seismology&rdquo;</i>&emsp;(15 nights)</li>
-            <li><i>&ldquo;The K2-HERMES follow-up program&rdquo;</i>&emsp;(13 nights)</li>
-            <li><i>&ldquo;The Southern Stellar Stream Spectroscopic Survey&rdquo;</i>&emsp;(14 nights)</li>
+            <li><i>The GALAH Survey: Phase 2</i>&emsp;(155 nights over 4 semesters)</li>
+            <li><i>The astrophysical origins of spectro-seismology</i>&emsp;(15 nights)</li>
+            <li><i>The K2-HERMES follow-up program</i>&emsp;(13 nights)</li>
+            <li><i>The Southern Stellar Stream Spectroscopic Survey</i>&emsp;(14 nights)</li>
           </ul>'
   - year: 2020A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The K2-HERMES follow-up program&rdquo;</i>&emsp;(15.5 nights)</li>
-            <li><i>&ldquo;The Southern Stellar Stream Spectroscopic Survey&rdquo;</i>&emsp;(13 nights)</li>
-            <li><i>&ldquo;Tracing the metal-poor tail of the inner Galaxy with the Pristine survey&rdquo;</i>&emsp;(4.5 nights)</li>
+            <li><i>The K2-HERMES follow-up program</i>&emsp;(15.5 nights)</li>
+            <li><i>The Southern Stellar Stream Spectroscopic Survey</i>&emsp;(13 nights)</li>
+            <li><i>Tracing the metal-poor tail of the inner Galaxy with the Pristine survey</i>&emsp;(4.5 nights)</li>
           </ul>'
   - year: 2019B
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The HERMES K2 followup program&rdquo;</i>&emsp;(10 nights)</li>
-            <li><i>&ldquo;Chemical tagging between stellar streams and globular clusters&rdquo;</i>&emsp;(3 nights)</li>
-            <li><i>&ldquo;The HERMES K2 followup program&rdquo;</i>&emsp;(10 nights)</li>
-            <li><i>&ldquo;How many extremely metal-poor stars in the Milky Way are on disk orbits?&rdquo;</i>&emsp;(3 nights)</li>
+            <li><i>The HERMES K2 followup program</i>&emsp;(10 nights)</li>
+            <li><i>Chemical tagging between stellar streams and globular clusters</i>&emsp;(3 nights)</li>
+            <li><i>The HERMES K2 followup program</i>&emsp;(10 nights)</li>
+            <li><i>How many extremely metal-poor stars in the Milky Way are on disk orbits?</i>&emsp;(3 nights)</li>
           </ul>'
   - year: 2019A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The GALAH Survey: Phase 2&rdquo;</i>&emsp;(41 nights)</li>
-            <li><i>&ldquo;The Galaxy&apos;s Dark Side: Dynamical Studies with the Southern Stellar Stream Spectroscopic Survey&rdquo;</i>&emsp;(10 nights)</li>
-            <li><i>&ldquo;Hierarchical star formation in Ori OB1&rdquo;</i>&emsp;(4 nights)</li>
+            <li><i>The GALAH Survey: Phase 2</i>&emsp;(41 nights)</li>
+            <li><i>The Galaxy&apos;s Dark Side: Dynamical Studies with the Southern Stellar Stream Spectroscopic Survey</i>&emsp;(10 nights)</li>
+            <li><i>Hierarchical star formation in Ori OB1</i>&emsp;(4 nights)</li>
           </ul>'
       - '<b>Magellan Telescopes</b>
           <ul>
-            <li><i>&ldquo;Chemical abundances of a faint, metal-poor globular cluster&rdquo;</i>&emsp;(1 night)</li>
+            <li><i>Chemical abundances of a faint, metal-poor globular cluster</i>&emsp;(1 night)</li>
           </ul>'
   - year: 2018B
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;Dynamical Studies of DES Stellar Streams&rdquo;</i>&emsp;(10 nights)</li>
-            <li><i>&ldquo;The HERMES-TESS program&rdquo;</i>&emsp;(8 nights)</li>
+            <li><i>Dynamical Studies of DES Stellar Streams</i>&emsp;(10 nights)</li>
+            <li><i>The HERMES-TESS program</i>&emsp;(8 nights)</li>
           </ul>'
   - year: 2018A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;Open clusters with HERMES&rdquo;</i>&emsp;(5 nights)</li>
+            <li><i>Open clusters with HERMES</i>&emsp;(5 nights)</li>
           </ul>'
   - year: 2017B
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;Open clusters with HERMES&rdquo;</i>&emsp;(13 nights)</li>
+            <li><i>Open clusters with HERMES</i>&emsp;(13 nights)</li>
           </ul>'
   - year: 2017A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;How Extended is the Stellar Envelope of NGC5694?&rdquo;</i>&emsp;(6 hours)</li>
-            <li><i>&ldquo;The GALAH Survey: Phase 2&rdquo;</i>&emsp;(35 nights for 2 semesters)</li>
+            <li><i>How Extended is the Stellar Envelope of NGC5694?</i>&emsp;(6 hours)</li>
+            <li><i>The GALAH Survey: Phase 2</i>&emsp;(35 nights for 2 semesters)</li>
           </ul>'
       - '<b>Keck Observatory</b>
           <ul>
-            <li><i>&ldquo;ESO452: Exploring self-enrichment in low mass stellar clusters&rdquo;</i>&emsp;(0.5 nights)</li>
+            <li><i>ESO452: Exploring self-enrichment in low mass stellar clusters</i>&emsp;(0.5 nights)</li>
           </ul>'
   - year: 2016A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;Probing the low mass regime of globular clusters&rdquo;</i>&emsp;(6 hours)</li>
-            <li><i>&ldquo;The HERMES K2-follow-up program&rdquo;</i>&emsp;(12 nights for 4 semesters)</li>
+            <li><i>Probing the low mass regime of globular clusters</i>&emsp;(6 hours)</li>
+            <li><i>The HERMES K2-follow-up program</i>&emsp;(12 nights for 4 semesters)</li>
           </ul>'
   - year: 2015A
     items:
       - '<b>Anglo-Australian Telescope</b>
           <ul>
-            <li><i>&ldquo;The GALAH Survey&rdquo;</i>&emsp;(35 nights for 4 semesters)</li>
+            <li><i>The GALAH Survey</i>&emsp;(35 nights for 4 semesters)</li>
           </ul>'
 
 - title: Contributed conference talks
@@ -148,13 +148,14 @@
   contents:
   - year: 2021
     items:
-      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5339071">The Milky Way is not special: accreted stars also inhabit the Spite Plateau</a>&rdquo;</i> at ASA Annual Scientific Meeting (Melbourne, Australia)'
-      -       '<i>&ldquo;The Milky Way is not special: accreted stars also inhabit the Spite Plateau&rdquo;</i> at GALAH Science Meeting (Sydney, Australia)'
+      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5520465">The Southern Stellar Stream Spectroscopic Survey</a>&rdquo;</i> at <a href="https://ftss2021.casconf.cn">ACAMAR Future of Traditional Survey Science</a> (Online)'
+      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5339071">The Milky Way is not special: accreted stars also inhabit the Spite Plateau</a>&rdquo;</i> at <a href="https://blogs.unimelb.edu.au/asa2021/">2021 ASA Annual Scientific Meeting</a> (Melbourne, Australia)'
+      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5340555">The Milky Way is not special: accreted stars also inhabit the Spite Plateau</a>&rdquo;</i> at <a href="https://astro3d.org.au/2021-astro-3d-science-meeting/">2021 GALAH Science Meeting</a> (Sydney, Australia)'
   - year: 2019
     items:
-      -       '<i>&ldquo;The Galah Survey: Chemically tagging the Fimbulthul stream to the globular cluster ω Centauri&rdquo;</i> at Gaia-ESO Science Meeting (Florence, Italy)'
-      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5339005">The Fimbulthul stellar stream was tidally stripped from the globular cluster ω Centauri</a>&rdquo;</i> at ASA Annual Scientific Meeting (Brisbane, Australia)'
-      -       '<i>&ldquo;Mapping stellar streams with LSST&rdquo;</i> at LSST@Asia (Sydney, Australia)'
+      -       '<i>&ldquo;The Galah Survey: Chemically tagging the Fimbulthul stream to the globular cluster ω Centauri&rdquo;</i> at <a href="https://sites.google.com/inaf.it/ges2019/home">GES 2019: The Legacy of the Gaia-ESO Survey</a> (Florence, Italy)'
+      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5339005">The Fimbulthul stellar stream was tidally stripped from the globular cluster ω Centauri</a>&rdquo;</i> at <a href="https://research.smp.uq.edu.au/asa2019/ASA%202019.html">2019 ASA Annual Scientific Meeting</a> (Brisbane, Australia)'
+      -       '<i>&ldquo;<a href="https://doi.org/10.5281/zenodo.5407600">Mapping stellar streams with LSST</a>&rdquo;</i> at <a href="https://lsst-asia.org">LSST@Asia</a> (Sydney, Australia)'
   - year: 2018
     items:
       -       '<i>&ldquo;A very nitrogen-rich star in the very low-mass, very metal-poor cluster ESO280-SC06&rdquo;</i> at Survival of Dense Star Clusters in the Milky Way System (Heidelberg, Germany)'
@@ -164,7 +165,7 @@
     items:
       -       '<i>&ldquo;The GALAH survey: Discovery of dissolving star clusters&rdquo;</i> at Surveying the Cosmos, The Science From Massively Multiplexed Surveys (Sydney, Australia)'
       -       '<i>&ldquo;What happened to the horizontal branch of ESO280-SC06?&rdquo;</i> at Stars in Sydney (Sydney, Australia)'
-      -       '<i>&ldquo;The GALAH survey: Co-orbiting stars and chemical tagging&rdquo;</i> at Celebration of CEMP & Gala of GALAH workshop (Melbourne, Australia)'
+      -       '<i>&ldquo;The GALAH survey: Co-orbiting stars and chemical tagging&rdquo;</i> at Celebration of CEMP \& Gala of GALAH workshop (Melbourne, Australia)'
       -       '<i>&ldquo;What happened to the horizontal branch of ESO280-SC06?&rdquo;</i> at Australian Institute of Physics Summer Meeting 2017 (Sydney, Australia)'
   - year: 2016
     items:
@@ -186,19 +187,16 @@
     items:
       -       '<i>&ldquo;Stellar parameters and barium abundances in ω Centauri GB by spectral matching&rdquo;</i> at 6th Stromlo Symposium on IFU Science in Australia (Canberra, Australia)'
 
-- title: Conference organizing
+- title: Departmental Seminars/Colloquia 
   type: table
   contents:
   - year: 2021
     items:
-      - 'Scientific organizing committee for the 2021 ASTRO 3D Science Meeting'
-      - 'Chaired organizing committees for the 2021 GALAH Science Meeting'
-  - year: 2020-2021
+      -       '<i>&ldquo;<a href="https://n3as.berkeley.edu/p/event/seminar_9-14-2021/">The Milky Way is not special: accreted stars also inhabit the Spite Plateau</a>&rdquo;</i> at <a href="https://n3as.berkeley.edu/events/seminar/">Network for Neutrinos, Nuclear Astrophysics and Symmetries (N3AS)</a> (Online)'
+  - year: 2020
     items:
-      - 'Organizing committee for the ASTRO 3D ECR in Australia International Seminar Series'
+      -       '<i>&ldquo;Trying to solve the lithium problems of dwarf and giant stars with the GALAH Survey&rdquo;</i> at Macquarie University (Sydney, Australia)'
   - year: 2019
     items:
-      - 'Local organizing committee for LSST@Asia'
-  - year: 2017
-    items:
-      - 'Chaired organizing committees for the 2017 Southern Cross Astrophysics Conference on &apos;Surveying the Cosmos, The Science From Massively Multiplexed Surveys&apos;'
+      -       '<i>&ldquo;Chemical tagging stellar streams and co-moving stars with the GALAH Survey&rdquo;</i> at Research School of Astronomy and Astrophysics, Australian National University (Canberra, Australia)'
+

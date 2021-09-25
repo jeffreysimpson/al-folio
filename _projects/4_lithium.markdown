@@ -2,7 +2,7 @@
 layout: distill
 title: the red clump lithium problem
 description: a project with a background image
-img: /assets/img/12.jpg
+img: /assets/img/test.png
 importance: 1
 category: work
 bibliography: projects.bib

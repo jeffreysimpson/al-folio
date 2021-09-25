@@ -8,7 +8,7 @@ nav: true
 ---
 
 <div class="publications">
-Metrics are obviously problematic, but anyway, I have an h-index of 22.
+Metrics are obviously problematic, but anyway, I have an h-index of 23.
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}

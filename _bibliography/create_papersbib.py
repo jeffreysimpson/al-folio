@@ -8,6 +8,13 @@ import requests
 import pandas as pd
 import numpy as np
 
+free_access_keys = {"10.1093/mnras/stab2012": "https://academic.oup.com/mnras/article/507/1/43/6321839?guestAccessKey=bee13ddf-207b-4889-a894-5dcd9488d637",
+                    "10.1093/mnras/stz3105": "https://academic.oup.com/mnras/article/491/3/3374/5613398?guestAccessKey=569ca73d-405e-482f-91f9-278fbf620525",
+                    "10.1093/mnras/stz2611": "https://academic.oup.com/mnras/article/490/1/741/5570616?guestAccessKey=fef33d34-993b-427d-ad75-c906329b8014",
+                    "10.1093/mnras/sty3042": "https://academic.oup.com/mnras/article/482/4/5302/5173100?guestAccessKey=65582380-8b2d-4ef9-b027-428a4f52e95a",
+                    "10.1093/mnras/sty1281": "https://academic.oup.com/mnras/article/478/4/4513/4996802?guestAccessKey=02d5df4d-0a31-47d8-ae4d-5d5d6de9e64c",
+                    "10.1093/mnras/stz3479": "https://academic.oup.com/mnras/article/492/1/1370/5681406?guestAccessKey=1b2999f1-5e8c-44ee-9a29-6744ee9385b7"}
+
 def get_config():
     """
     Load ADS developer key from file
@@ -126,7 +133,7 @@ selected_publications = ["2021MNRAS.507...43S",
                          "2020Natur.583..768W",
                          "2019MNRAS.490..741S"]
 ignore_doctype = ["catalog", "proposal", "inproceedings", "abstract"]
-            
+                    
 write_bibtex("assets/bibliography/projects.bib", get_pub_df("8YvxNAmnT1Kf09WBpxQ4Sg"))
 
 
@@ -156,3 +163,4 @@ nav: true
 
 </div>
 """)
+    

@@ -6,7 +6,7 @@ description: Astronomer at <a href="http://unsw.edu.au">UNSW Sydney</a>. # Addre
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jeffrey_simpson.jpeg
   address: >
     <p>University of New South Wales</p>
     <p>Kensington Campus</p>
