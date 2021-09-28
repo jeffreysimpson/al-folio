@@ -13,7 +13,8 @@
         "conference": "2021 ASA Annual Scientific Meeting",
         "location": "Melbourne, Australia",
         "title_link": "https://doi.org/10.5281/zenodo.5339071",
-        "conf_link": "https://blogs.unimelb.edu.au/asa2021/"
+        "conf_link": "https://blogs.unimelb.edu.au/asa2021/",
+        "video": "https://youtu.be/4Z3-J_gYFSk?t=37"
     },
     {
         "year": 2021,
@@ -21,8 +22,18 @@
         "conference": "2021 GALAH Science Meeting",
         "location": "Sydney, Australia",
         "title_link": "https://doi.org/10.5281/zenodo.5340555",
-        "conf_link": "https://astro3d.org.au/2021-astro-3d-science-meeting/"
+        "conf_link": "https://astro3d.org.au/2021-astro-3d-science-meeting/",
+        "video": "https://www.youtube.com/watch?v=uRwpTjE0Dyg"
     },
+
+    {
+        "year": 2020,
+        "title": "Lithium in GALAH Stars",
+        "conference": "2020 GALAH Science Meeting",
+        "location": "Online",
+        "video": "https://www.youtube.com/watch?v=NjsHiou-lk0"
+    },
+
     {
         "year": 2019,
         "title": "The Galah Survey: Chemically tagging the Fimbulthul stream to the globular cluster ω Centauri",
@@ -98,7 +109,8 @@
         "year": 2016,
         "title": "Tips and tools to work with reduced data",
         "conference": "ITSO/AAO Observational Techniques Workshop",
-        "location": "Sydney, Australia"
+        "location": "Sydney, Australia",
+        "video": "https://www.youtube.com/watch?v=_UVeRHNUpp4"
     },
     {
         "year": 2015,
