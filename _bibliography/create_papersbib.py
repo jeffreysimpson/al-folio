@@ -38,25 +38,24 @@ def get_config():
 
 
 def get_bibcodes(library_id):
+    """Get the bibcodes for all the papers in the library."""
     start = 0
     rows = 1000
     config = get_config()
 
-    r = requests.get(
-        '{}/libraries/{id}?start={start}&rows={rows}'.format(
-            config['url'],
-            id=library_id,
-            start=start,
-            rows=rows
-        ),
-        headers=config['headers']
+    url = f"{config['url']}/libraries/{library_id}"
+    r = requests.get(url,
+                     params={"start": start,
+                             "rows": rows},
+                     headers=config["headers"],
     )
     # Get all the documents that are inside the library
     try:
-        bibcodes = r.json()['documents']
+        bibcodes = r.json()["documents"]
     except ValueError:
         raise ValueError(r.text)
     return bibcodes
+
 
 def get_pub_df(library_id):
     config = get_config()
@@ -99,7 +98,7 @@ def fix_title(title):
 
 def write_bibtex(bibtex_file, pub_df):
     with open(bibtex_file, 'w') as bibfile:
-        for *_, publication in pub_df.sort_values(['date', 'bibcode'], ascending=[False, True]).iterrows():
+        for *_, publication in pub_df.sort_values(['date', 'bibcode'], ascending=[False, False]).iterrows():
             if publication.doctype in ignore_doctype:
                 continue
             bibfile.write(f"@{publication.doctype}")
