@@ -15,25 +15,23 @@ free_access_keys = {"10.1093/mnras/stab2012": "https://academic.oup.com/mnras/ar
                     "10.1093/mnras/sty1281": "https://academic.oup.com/mnras/article/478/4/4513/4996802?guestAccessKey=02d5df4d-0a31-47d8-ae4d-5d5d6de9e64c",
                     "10.1093/mnras/stz3479": "https://academic.oup.com/mnras/article/492/1/1370/5681406?guestAccessKey=1b2999f1-5e8c-44ee-9a29-6744ee9385b7"}
 
+
 def get_config():
     """
-    Load ADS developer key from file
-    :return: str
+    Load ADS developer key from file and
+    and return the headers for the request
     """
-#     token = os.getenv('ADS_TOKEN')
-    try:
-        with open(os.path.expanduser('~/.ads/dev_key')) as f:
-            token = f.read().strip()
-    except IOError:
-        print('The script assumes you have your ADS developer token in the'
-              'folder: {}'.format())
-
+    if os.getenv('ADS_TOKEN') is None:
+        with open(os.path.expanduser("~/.ads/dev_key")) as f:
+            token = f.read().strip() 
+    else:
+        token = os.getenv('ADS_TOKEN')
     return {
-        'url': 'https://api.adsabs.harvard.edu/v1/biblib',
-        'headers': {
-            'Authorization': 'Bearer:{}'.format(token),
-            'Content-Type': 'application/json',
-        }
+        "url": "https://api.adsabs.harvard.edu/v1/biblib",
+        "headers": {
+            "Authorization": "Bearer:{}".format(token),
+            "Content-Type": "application/json",
+        },
     }
 
 
