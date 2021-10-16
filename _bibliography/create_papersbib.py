@@ -89,7 +89,18 @@ def get_arxiv_str(pub):
     return f"{arXiv_id[0]}"
 
 def fix_title(title):
-    things_to_fix = [[r"${S}^5$", "S<sup>5</sup>"]]
+    things_to_fix = [[r"$\sim$", "~"],
+                     [r"$R$", "*R*"],
+                     [r"[$\alpha/\rm Fe]$", "[α/Fe]"],
+                     [r"$\alpha$", "α"],
+                     [r"∼", "~"],
+                     [r"$< -0.75$", "< −0.75"],
+                     [r"$\textit{TESS}$", "*TESS*"],
+                     [r"$Gaia$", "*Gaia*"],
+                     [r"${S}^5$", "S⁵"],
+                     [r"$S^5$", "S⁵"],
+                     ["(S5)", "(S⁵)"],
+                     ["S<SUP>5</SUP>", "S⁵"],]
     for thing_to_fix in things_to_fix:
         title = title.replace(thing_to_fix[0], thing_to_fix[1])
     return title
