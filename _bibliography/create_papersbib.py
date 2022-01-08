@@ -100,6 +100,7 @@ def fix_title(title):
                      [r"${S}^5$", "S⁵"],
                      [r"$S^5$", "S⁵"],
                      ["(S5)", "(S⁵)"],
+                     ["S <SUP>5</SUP>", "S⁵"],
                      ["S<SUP>5</SUP>", "S⁵"],]
     for thing_to_fix in things_to_fix:
         title = title.replace(thing_to_fix[0], thing_to_fix[1])
