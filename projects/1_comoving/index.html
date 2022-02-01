@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +10,7 @@
   Jeffrey  Simpson
 
 
-  | blog
+  | co-moving pairs
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_comoving/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -67,7 +66,47 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "co-moving pairs",
+      "description": "stars lost from clusters",
+      "published": "February 1, 2022",
+      "authors": [
+        
+        {
+          "author": "Jeffrey Simpson",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "UNSW Sydney",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -101,8 +140,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -176,61 +213,34 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+      <d-title>
+        <h1>co-moving pairs</h1>
+        <p>stars lost from clusters</p>
+      </d-title>
 
+      <d-byline></d-byline>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-  </ul>
+      <d-article>
+        <!-- Credit: ESO/L. Calçada https://www.eso.org/public/images/eso1110a/-->
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>All observable stars in our Galaxy were born in a cluster. But the vast majority of stars are not found to be in clusters: most birth clusters are not gravitationally bound<d-cite key="2020MNRAS.494..624K"></d-cite>; and if they do survive past the initial star formation event, they can be later ripped apart by the tidal forces of the Milky Way<d-cite key="2020ARA&amp;A..58..205H"></d-cite>. My research investigates the Milky Way using stars from both these types of progenitors. This work has often made use of the paradigm of <strong>chemical tagging</strong> — using elemental abundance patterns to identify stars from a common origin.</p>
 
+<p>One of the over-arching goals of the GALAH Survey is <strong>strong chemical tagging</strong> <d-cite key="2002ARA&amp;A..40..487F"></d-cite> — identifying stars born in common birth clusters through their abundance patterns, to chart the history of star formation and chemical enrichment in the Galaxy. But are stars that are born together uniquely chemically homogeneous? The question of whether strong chemical tagging can be actually accomplished is of fundamental concern to the future of Galactic archaeology. \cite{Ness2018} found that random pairs of stars in the field were as similar in abundance space as stars from extant star clusters, while \cite{Hawkins2020} found that wide binary systems are far more chemically homogeneous than random pairs of field stars of similar spectral type. Chemical tagging can work in some circumstances <d-cite key="2016ApJ...833..262H"></d-cite>, but it may not be fully possible with the sample size and precision of current surveys <d-cite key="2015ApJ...807..104T"></d-cite>.</p>
 
+<p>Tests of chemical tagging often use extant star clusters. However, only 5-10 per cent of stars remain in gravitationally-bound systems after a few 10~Myrs <d-cite key="2020MNRAS.494..624K"></d-cite>. This implies that star formation events that do persist as gravitationally-bound clusters are special in some way, which could affect their usefulness as tests of birth cluster homogeneity. An alternative approach is to use the more than $10^{4}$ nearby co-moving pairs of stars identified using Gaia data <d-cite key="2018MNRAS.480.4884E"></d-cite>. It is thought that these pairs form through a variety of mechanisms <d-cite key="2020MNRAS.492.1164H"></d-cite>, but ultimately a given pair of stars originated from the same birth cluster. This gives us a huge sample of co-eval and co-natal stars to test the chemical homogeneity of star clusters and evaluate models of the Milky Way’s chemical evolution.</p>
 
-</div>
+<p>I did a pilot study<d-cite key="2019MNRAS.482.5302S"></d-cite> of 15 such pairs of stars identified in the first data release from Gaia <d-cite key="2017AJ....153..257O"></d-cite>. I used GALAH DR2 data to study the abundance similarity of these pairs of stars, finding that two-thirds were actually inhomogeneous. With the improved pair identification of Gaia DR2 and abundances from the third data release of GALAH<d-cite key="2021MNRAS.506..150B"></d-cite>, we were able to show that for 268 dwarf-giant pairs there was on average a 0.01 dex difference in iron abundance between the two stars.</p>
+
+<p><strong>I will return to the topic of strong chemical tagging with GALAH DR3 and Gaia eDR3</strong>. The abundance space similarity in co-moving pairs of stars allows us to observationally determine the intrinsic abundance dispersion in star-forming regions, which is a key ingredient for Galactic chemical evolution modelling. The observing strategy of GALAH has now been tuned to focus on main sequence turn-off stars, for which we can determine precise ages. This will be crucial for tying down whether pairs of stars are in fact co-eval and for reconstructing the evolution of the 29 elements measured by GALAH across time and location in the disk.</p>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -251,28 +261,7 @@
 
   </body>
 
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
+  <d-bibliography src="/assets/bibliography/projects.bib">
+  </d-bibliography>
 
 </html>

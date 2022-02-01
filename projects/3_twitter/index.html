@@ -11,7 +11,7 @@
   Jeffrey  Simpson
 
 
-  | blog
+  | twitter bots
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/3_twitter/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -121,8 +121,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/cv/">
                 curriculum vitae
@@ -179,56 +177,32 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">twitter bots</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <h3 id="robot-galah"><a href="https://twitter.com/RobotGALAH">Robot GALAH</a></h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-  </ul>
+<p>Robot GALAH tweets once per hour, giving the details of a random star from the Third Data Release of the GALAH Survey.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">CHIRP!<br /><br />We observed Gaia eDR3 5687199778430891392 in the constellation of Hydra on 27 Mar 2016 during the main GALAH survey.<br /><br />It is 1.2 kpc from the Sun, aged 8.3 Gyr, and is 1.1 solar masses.<br /><br />Find out more about this star <a href="https://t.co/rIMaKOQBsy">https://t.co/rIMaKOQBsy</a> <a href="https://t.co/v1OuVOCHCz">pic.twitter.com/v1OuVOCHCz</a></p>&mdash; Robot GALAH (@RobotGALAH) <a href="https://twitter.com/RobotGALAH/status/1414383914769022980?ref_src=twsrc%5Etfw">July 12, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
+<h4 id="technical-details">Technical details</h4>
+<p>The bot is run from a Raspberry Pi 2 Model B. It is written in Python, because that is my language of choice. <a href="https://github.com/jeffreysimpson/robot_galah">The code for the bot is found on GitHub</a>.</p>
 
+<p>Each hour, a random star is selected from the <a href="https://www.galah-survey.org/dr3/the_catalogues/">GALAH DR3 catalogues</a>. There is then a check of <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD astronomical database</a> at the Centre de Données astronomiques de Strasbourg (CDS) to find if there an entry for the star and a ‘‘nice’’ name for the star. The tweet text is composed that includes when we observed the star, which constellation it is found in, its distance, age, and mass, and a link the <a href="http://cdsportal.u-strasbg.fr">CDS Portal</a>.</p>
+
+<p>For the plots of the stellar paramaters and orbital properties, it is basically just a bunch of bespoke <code class="language-plaintext highlighter-rouge">matplotlib</code> convenience functions that I wrote for plotting GALAH data. I use <a href="https://github.com/astrofrog/mpl-scatter-density"><code class="language-plaintext highlighter-rouge">mpl-scatter-density</code></a> to make the background distributions.</p>
+
+<p>To retrieve a colour JPEG for the 15 arcmins around the star, I use a combination of tools provided by CDS: <a href="http://alasky.u-strasbg.fr/MocServer/query">MOC Server tool</a> and <a href="http://alasky.u-strasbg.fr/hips-image-services/hips2fits"><code class="language-plaintext highlighter-rouge">hips2fits</code></a>. The MOC Server identifies the list of sky surveys that the star is found in, and then <code class="language-plaintext highlighter-rouge">hips2fits</code> is used to download the image from the ‘‘best’’ survey.</p>
+
+<p>The reduced, normalized spectrum of the star are retrieved using the <a href="https://www.ivoa.net/documents/cover/SSA-20071220.html">Simple Spectral Access</a> protocol from <a href="https://datacentral.org.au/">Data Central</a>, and then plotted with <code class="language-plaintext highlighter-rouge">matplotlib</code>.</p>
+
+  </article>
 
 </div>
 
